@@ -1,0 +1,13 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.checkUpdates": true,
+    "clangd.enableCodeCompletion": true,
+    "clangd.onConfigChanged": "restart",
+    "clangd.arguments": [
+        "-log=verbose",
+        "-pretty",
+        "-background-index",
+        "-header-insertion=iwyu",
+        "-header-insertion-decorators"
+    ],
+}
